@@ -86,7 +86,7 @@ struct PrivacyPolicyView: View {
                     Label("View Web Privacy Policy", systemImage: "safari")
                 }
             } footer: {
-                Text("Last updated: September 2026. Free NFC is open-source software.")
+                Text("Last updated: September 2026. Free NFC is open-source software released under the MIT License.")
             }
         }
         .navigationTitle("Privacy Policy")

@@ -200,6 +200,7 @@ struct SettingsView: View {
             VStack(alignment: .center, spacing: 4) {
                 Text("Free NFC · 100% Free & Open-Source")
                 Text("Zero Ads · Zero Trackers · No Cloud Required")
+                Text("© 2026 Ryan Hamilton · MIT License")
             }
             .font(.caption2)
             .frame(maxWidth: .infinity, alignment: .center)

@@ -27,6 +27,7 @@ targets:
       path: FreeNFC/App/Info.plist
       properties:
         CFBundleDisplayName: Free NFC
+        NSHumanReadableCopyright: "Copyright © 2026 Ryan Hamilton. Released under the MIT License."
         CFBundleShortVersionString: "1.0"
         CFBundleVersion: "1"
         UILaunchScreen: {}

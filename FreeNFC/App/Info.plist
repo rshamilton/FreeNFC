@@ -28,6 +28,8 @@
 	<array>
 		<string>_freenfc._tcp</string>
 	</array>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Ryan Hamilton. Released under the MIT License.</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Free NFC lets a computer on your Wi-Fi network read and write NFC tags through this iPhone.</string>
 	<key>UILaunchScreen</key>
