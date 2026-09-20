@@ -1,0 +1,392 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadResultView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Read Result",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Tag",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tag",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chip",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protection & Configuration",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Technology",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records (%lld)",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved tags can be written onto a blank tag later from Duplicate.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chip",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "UID",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "UID Length",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "NDEF Status",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "NDEF Capacity",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memory Read",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanned",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Vendor",
+        "location": {
+          "startingColumn": 69,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Product",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "User Memory",
+        "location": {
+          "startingColumn": 82,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protocol",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read Counter",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Originality Signature",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capability Container",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password (AUTH0)",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protection Scope",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Attempt Limit",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Config Locked",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Static Lock Bits",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dynamic Lock Bits",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected AID",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 144
+        }
+      },
+      {
+        "comment": "",
+        "key": "Proprietary Coding",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "IC Manufacturer",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "DSFID",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "AFI",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "Blocks",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "IC Reference",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not NDEF formatted.",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "No NDEF records found.",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "View Full Memory Dump",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy All Raw Bytes (Hex)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 212
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Tag (for Duplicating)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld bytes",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 235
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteWiFiView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write Wi-Fi Network",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Name (SSID)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Writes a Wi-Fi QR-style text token. Works with apps that scan for it; iPhone can't auto-join a network from an NFC tag.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 28
+        }
+      }
+    ]
+  },
+  "version": 1
+}

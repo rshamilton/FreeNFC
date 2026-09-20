@@ -1,0 +1,80 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ComputerBridgeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Computer Reader",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open on your computer",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Free NFC Settings",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "iOS asks for Local Network permission the first time the reader starts. If you tapped Don't Allow, turn “Local Network” back on here, then switch the reader off and on again.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connect the iPhone to Wi-Fi to get an address.",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can also trigger scans and writes from the computer's browser.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Mac and iPhone must be on the same Wi-Fi network. Open the address above in Safari or Chrome. Keep this screen open — scans use the phone's NFC hardware, so the app has to stay in the foreground.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 163
+        }
+      }
+    ]
+  },
+  "version": 1
+}

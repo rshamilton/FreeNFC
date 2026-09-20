@@ -1,0 +1,176 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadResultView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Read Result",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Tag",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tag",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records (%lld)",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chip",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "UID",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "NDEF Status",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capacity",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memory",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not NDEF formatted.",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "No NDEF records found.",
+        "location": {
+          "startingColumn": 84,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "View Full Memory Dump",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy All Raw Bytes (Hex)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Tag (for Duplicating)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved tags can be written onto a blank tag later from Duplicate.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Raw",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 137
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      }
+    ]
+  },
+  "version": 1
+}

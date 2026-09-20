@@ -1,0 +1,23 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadResultView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/PasswordView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/PrimaryActionButton.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.swiftdeps"
+  }
+}

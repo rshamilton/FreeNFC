@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Free NFC</title>
+  <meta name="description" content="Privacy Policy for Free NFC. Zero data collection, 100% on-device processing.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%2232%22%20height=%2232%22><text y=%2224%22 font-size=%2224%22>🛡️</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">📡</div>
+        <span>Free NFC</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features" class="nav-link">Features</a></li>
+        <li><a href="index.html#compatibility" class="nav-link">Compatibility</a></li>
+        <li><a href="privacy.html" class="nav-link active">Privacy</a></li>
+        <li><a href="support.html" class="nav-link">Support</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="section">
+    <div class="container">
+      <div class="doc-content">
+        <div class="hero-badge">🔒 Effective Date: September 20, 2026</div>
+        <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px;">Privacy Policy</h1>
+        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 24px;">
+          Free NFC is designed with a strict zero-data-collection philosophy. Your privacy is paramount.
+        </p>
+
+        <div class="highlight-box">
+          <strong style="color: var(--accent-blue); font-size: 1.05rem;">Summary in Plain English:</strong>
+          <p style="margin-top: 8px; margin-bottom: 0;">
+            Free NFC does not collect, record, track, transmit, share, or monetize any of your personal data, tag scan contents, memory dumps, or usage activity. Everything happens 100% on your device.
+          </p>
+        </div>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>When you use Free NFC on iOS, we do <strong>not</strong> collect:</p>
+        <ul>
+          <li>Personal identification information (names, email addresses, phone numbers).</li>
+          <li>NFC tag payload data (NDEF messages, vCards, URLs, Wi-Fi credentials).</li>
+          <li>Raw tag memory dumps, lock status, or hardware cryptographic keys.</li>
+          <li>Device identifiers (IDFA, IDFV, MAC addresses, IP addresses).</li>
+          <li>Location data or GPS coordinates.</li>
+          <li>Behavioral usage telemetry, session analytics, or crash logs sent to external servers.</li>
+        </ul>
+
+        <h2>2. On-Device Local Storage</h2>
+        <p>
+          Free NFC utilizes Apple's SwiftData framework to store information you explicitly choose to save (such as your saved tag library for duplication and manual command history logs).
+        </p>
+        <p>
+          This data is stored exclusively in your iPhone's protected local application sandbox. It is never uploaded to external servers, cloud services, or third-party networks. You can clear your saved tags and history at any time directly in the in-app Settings.
+        </p>
+
+        <h2>3. Device Permissions & System APIs</h2>
+        <p>Free NFC requests minimal iOS permissions required to perform its core functionality:</p>
+        <ul>
+          <li>
+            <strong>NFC Tag Reading Entitlement:</strong> Required by iOS to communicate with physical NFC chips held against the top edge of your iPhone. Used solely during active scanning sessions initiated by you.
+          </li>
+          <li>
+            <strong>Local Network (Bonjour / HTTP):</strong> Used exclusively if you enable the optional <em>Computer Reader Bridge</em> in Tools. This creates a lightweight local web server on your home/office Wi-Fi subnet so your Mac or PC can interface with the iPhone. No data is transmitted outside your local area network.
+          </li>
+        </ul>
+
+        <h2>4. Third-Party Frameworks & Analytics</h2>
+        <p>
+          Free NFC contains <strong>zero third-party tracking or analytics SDKs</strong>. We do not use Google Firebase, Google Analytics, Mixpanel, AppsFlyer, Facebook SDK, or advertising networks.
+        </p>
+
+        <h2>5. Open-Source Transparency</h2>
+        <p>
+          Free NFC is open-source software licensed under the MIT License. The complete source code is publicly accessible on GitHub at <a href="https://github.com/rshamilton/FreeNFC" style="color: var(--accent-blue);" target="_blank" rel="noopener">github.com/rshamilton/FreeNFC</a>, allowing security researchers and users to independently audit our data handling and security practices.
+        </p>
+
+        <h2>6. Contact & Inquiries</h2>
+        <p>
+          If you have questions regarding this Privacy Policy or Free NFC, please open an issue on our GitHub repository or contact:
+        </p>
+        <p>
+          <strong>Developer:</strong> rshamilton<br>
+          <strong>Email:</strong> <a href="mailto:rshamilton.dev@gmail.com" style="color: var(--accent-blue);">rshamilton.dev@gmail.com</a><br>
+          <strong>GitHub:</strong> <a href="https://github.com/rshamilton/FreeNFC" style="color: var(--accent-blue);" target="_blank" rel="noopener">github.com/rshamilton/FreeNFC</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <strong>Free NFC</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
+        </div>
+        <ul class="footer-links">
+          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
+          <li><a href="terms.html" class="footer-link">Terms</a></li>
+          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Free NFC. Released under the MIT License.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

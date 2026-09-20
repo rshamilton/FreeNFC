@@ -1,0 +1,739 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFC-primary.dia",
+    "emit-module-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFC-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFC-primary-emit-module.dia",
+    "pch" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFC-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFC-primary.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/App/FreeNFCApp.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FreeNFCApp~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Bridge/BridgeWebPage.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BridgeWebPage~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Bridge/ComputerBridgeController.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeController~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Bridge/ComputerBridgeServer.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeServer~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Bridge/LocalNetwork.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LocalNetwork~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Models/ComposedRecord.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComposedRecord~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Models/NDEFRecordModel.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFRecordModel~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Models/SavedTagStore.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SavedTagStore~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Models/ScannedTag.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ScannedTag~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/FeliCaCommands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FeliCaCommands~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/HexUtils.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexUtils~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/ISO15693Commands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO15693Commands~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/ISO7816Commands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ISO7816Commands~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/MiFareUltralightCommands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NDEFReader.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFReader~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NDEFWriter.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NFCError.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCError~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NFCSessionManager.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCSessionManager~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagCapability.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagCapability~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagDetails.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetails~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagDetailsReader.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDetailsReader~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagDiagnostics.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagDiagnostics~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagMemoryAccess.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagMemoryAccess~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagScanner.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/TagScanner~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/BluetoothOOBBuilder.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BluetoothOOBBuilder~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/Clipboard.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/Clipboard~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/FileExport.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FileExport~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/InputValidators.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/InputValidators~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/PaymentLinkBuilder.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PaymentLinkBuilder~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/SocialLinkBuilder.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialLinkBuilder~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/CloneEngine.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneEngine~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/CloneTargetView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/CloneTargetView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/DuplicateHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/DuplicateHomeView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/MemoryDumpView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryDumpView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadResultView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadResultView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/ReadView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ReadView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/RecordDetailView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RecordDetailView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Settings/SettingsView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/BinDumpView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/BinDumpView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ComputerBridgeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ComputerBridgeView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/EraseView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/EraseView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/FormatView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/FormatView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/LockView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/LockView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ManualCommandView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ManualCommandView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/MemoryEditorView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/PasswordView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PasswordView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ToolsHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/ToolsHomeView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteAddressView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAddressView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteAppView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteAppView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteBluetoothView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteBluetoothView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteCalendarView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCalendarView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteContactView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteContactView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteCustomView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteCustomView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteEmailView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteEmailView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteFaceTimeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFaceTimeView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteFileView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteFileView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteHomeView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteLocationView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteLocationView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WritePaymentView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePaymentView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WritePhoneView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WritePhoneView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteSocialView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteSocialView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteTextView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteTextView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteURLView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteURLView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteWhatsAppView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWhatsAppView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteWiFiView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/WriteWiFiView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/AddRecordButton.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/AddRecordButton~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/HexByteRow.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/HexByteRow~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/NFCScanOverlay.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NFCScanOverlay~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/PrimaryActionButton.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/PrimaryActionButton~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/RootTabView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/RootTabView~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/SocialBadge.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/SocialBadge~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/StatusBanner.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/StatusBanner~partial.swiftmodule"
+  },
+  "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

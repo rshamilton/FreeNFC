@@ -1,0 +1,40 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WritePhoneView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write Phone / SMS",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phone Number",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Message (optional)",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 24
+        }
+      }
+    ]
+  },
+  "version": 1
+}

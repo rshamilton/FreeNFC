@@ -1,0 +1,51 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteCalendarView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCalendarView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCalendarView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCalendarView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCalendarView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCalendarView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteContactView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteContactView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteContactView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteContactView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteContactView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteContactView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteCustomView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCustomView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCustomView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCustomView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCustomView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteCustomView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteEmailView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteEmailView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteEmailView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteEmailView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteEmailView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteEmailView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteFileView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteFileView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteFileView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteFileView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteFileView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteFileView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteHomeView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteHomeView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteLocationView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteLocationView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteLocationView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteLocationView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteLocationView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteLocationView.swiftdeps"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteTextView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write Text",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Text",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 9
+        }
+      }
+    ]
+  },
+  "version": 1
+}

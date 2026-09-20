@@ -1,0 +1,96 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/CloneTargetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write to New Tag",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write to Target Tag",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Source",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memory",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "The target must be the same tag type (%@) and blank or overwritable. Its existing content will be replaced.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hold Near Target Tag",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "This replaces the target tag's current content with “%@”.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 51
+        }
+      }
+    ]
+  },
+  "version": 1
+}

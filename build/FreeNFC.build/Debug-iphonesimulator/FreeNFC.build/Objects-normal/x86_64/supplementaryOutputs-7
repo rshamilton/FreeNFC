@@ -1,0 +1,23 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/MiFareUltralightCommands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MiFareUltralightCommands.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NDEFWriter.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/NDEFWriter.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/MemoryEditorView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphonesimulator/FreeNFC.build/Objects-normal/x86_64/MemoryEditorView.swiftdeps"
+  }
+}

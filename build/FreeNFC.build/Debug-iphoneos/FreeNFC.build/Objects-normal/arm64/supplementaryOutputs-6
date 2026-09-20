@@ -1,0 +1,51 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagCapability.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagCapability.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagCapability.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagCapability.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagCapability.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagCapability.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagMemoryAccess.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagMemoryAccess.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagMemoryAccess.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagMemoryAccess.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagMemoryAccess.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagMemoryAccess.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/TagScanner.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagScanner.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagScanner.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagScanner.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagScanner.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/TagScanner.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ToolsHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/ToolsHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/ToolsHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/ToolsHomeView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/ToolsHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/ToolsHomeView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteAppView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteAppView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteAppView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteAppView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteAppView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteAppView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteBluetoothView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteBluetoothView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteBluetoothView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteBluetoothView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteBluetoothView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/WriteBluetoothView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/StatusBanner.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/StatusBanner.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/StatusBanner.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/StatusBanner.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/StatusBanner.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/StatusBanner.swiftdeps"
+  }
+}

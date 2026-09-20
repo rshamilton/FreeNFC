@@ -1,0 +1,58 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Models/NDEFRecordModel.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFRecordModel.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFRecordModel.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFRecordModel.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFRecordModel.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFRecordModel.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NDEFReader.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFReader.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFReader.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFReader.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFReader.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFReader.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NDEFWriter.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFWriter.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFWriter.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFWriter.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFWriter.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NDEFWriter.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NFCError.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCError.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCError.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCError.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCError.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCError.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/NFCSessionManager.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCSessionManager.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCSessionManager.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCSessionManager.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCSessionManager.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/PaymentLinkBuilder.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PaymentLinkBuilder.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PaymentLinkBuilder.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PaymentLinkBuilder.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PaymentLinkBuilder.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PaymentLinkBuilder.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/PasswordView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PasswordView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PasswordView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PasswordView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PasswordView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/PasswordView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/NFCScanOverlay.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCScanOverlay.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCScanOverlay.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCScanOverlay.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCScanOverlay.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/NFCScanOverlay.swiftdeps"
+  }
+}

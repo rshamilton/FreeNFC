@@ -1,0 +1,48 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/RootTabView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duplicate",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tools",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 23
+        }
+      }
+    ]
+  },
+  "version": 1
+}

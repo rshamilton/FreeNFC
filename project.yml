@@ -1,0 +1,79 @@
+name: FreeNFC
+options:
+  bundleIdPrefix: com.ryan
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    ENABLE_PREVIEWS: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+
+targets:
+  FreeNFC:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: FreeNFC
+    resources:
+      - path: FreeNFC/Resources/Assets.xcassets
+    info:
+      path: FreeNFC/App/Info.plist
+      properties:
+        CFBundleDisplayName: Free NFC
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NFCReaderUsageDescription: "Free NFC uses NFC to read, write, and manage NFC tags and cards you hold near your iPhone."
+        ITSAppUsesNonExemptEncryption: false
+        # Computer Reader: the phone runs a small local web server and advertises it over
+        # Bonjour so a Mac on the same Wi-Fi can read/write tags through the phone.
+        NSLocalNetworkUsageDescription: "Free NFC lets a computer on your Wi-Fi network read and write NFC tags through this iPhone."
+        NSBonjourServices:
+          - "_freenfc._tcp"
+        # Required because NFCSessionManager polls .iso14443 and .iso18092. Without these, iOS
+        # rejects the session with NFCReaderError code 2 "Missing required entitlement" even
+        # though the NFC capability/entitlement is correctly signed in. No FFFF wildcard allowed.
+        com.apple.developer.nfc.readersession.iso7816.select-identifiers:
+          - "D2760000850101"
+          - "D2760000850100"
+        com.apple.developer.nfc.readersession.felica.systemcodes:
+          - "12FC"
+          - "88B4"
+          - "0003"
+          - "FE00"
+    entitlements:
+      path: FreeNFC/App/FreeNFC.entitlements
+      properties:
+        com.apple.developer.nfc.readersession.formats:
+          - TAG
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ryan.freenfc
+        PRODUCT_NAME: Free NFC
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 38H53T49NJ
+        SWIFT_EMIT_LOC_STRINGS: YES
+schemes:
+  FreeNFC:
+    build:
+      targets:
+        FreeNFC: all
+    run:
+      config: Debug
+    archive:
+      config: Release

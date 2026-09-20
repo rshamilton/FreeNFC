@@ -1,0 +1,80 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/LockView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Lock",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lock Tag Permanently?",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Are You Absolutely Sure?",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is permanent and cannot be reversed by this app or any other.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yes, Lock This Tag Forever",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Once locked, this tag will be read-only forever.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 41
+        }
+      }
+    ]
+  },
+  "version": 1
+}

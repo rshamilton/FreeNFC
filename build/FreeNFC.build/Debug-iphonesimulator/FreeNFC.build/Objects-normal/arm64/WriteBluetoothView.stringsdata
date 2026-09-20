@@ -1,0 +1,40 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Write/WriteBluetoothView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write Bluetooth Pairing",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Bluetooth Address (AA:BB:CC:DD:EE:FF)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device Name (optional)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Writes a standard Bluetooth OOB pairing record. iPhone doesn't auto-pair from reading a tag — Apple has no public API for that — but the record is spec-compliant, so Android phones and dedicated BT/NFC pairing hardware can use it.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 18
+        }
+      }
+    ]
+  },
+  "version": 1
+}

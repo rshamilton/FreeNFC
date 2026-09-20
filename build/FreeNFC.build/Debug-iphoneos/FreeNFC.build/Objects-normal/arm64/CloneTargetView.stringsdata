@@ -1,0 +1,112 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/CloneTargetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Write to New Tag",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write to Target Tag",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Source",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Records",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memory",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "The target must be the same tag type (%@) and blank or overwritable. Its existing content will be replaced.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning…",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan Target Tag & Write",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hold Near Target Tag",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "This replaces the target tag's current content with “%@”.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 58
+        }
+      }
+    ]
+  },
+  "version": 1
+}

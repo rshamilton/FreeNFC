@@ -1,0 +1,58 @@
+{
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/App/FreeNFCApp.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FreeNFCApp.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FreeNFCApp.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FreeNFCApp.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FreeNFCApp.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FreeNFCApp.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/FeliCaCommands.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FeliCaCommands.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FeliCaCommands.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FeliCaCommands.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FeliCaCommands.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FeliCaCommands.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/NFC/HexUtils.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexUtils.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexUtils.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexUtils.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexUtils.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexUtils.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Core/Utilities/FileExport.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FileExport.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FileExport.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FileExport.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FileExport.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FileExport.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/DuplicateHomeView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/DuplicateHomeView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/DuplicateHomeView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/DuplicateHomeView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/DuplicateHomeView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/DuplicateHomeView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/EraseView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/EraseView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/EraseView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/EraseView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/EraseView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/EraseView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/FormatView.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FormatView.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FormatView.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FormatView.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FormatView.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/FormatView.swiftdeps"
+  },
+  "/Users/Ryan/Downloads/Free NFC/FreeNFC/SharedUI/HexByteRow.swift" : {
+    "const-values" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexByteRow.swiftconstvalues",
+    "dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexByteRow.d",
+    "diagnostics" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexByteRow.dia",
+    "object" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexByteRow.o",
+    "swift-dependencies" : "/Users/Ryan/Downloads/Free NFC/build/FreeNFC.build/Debug-iphoneos/FreeNFC.build/Objects-normal/arm64/HexByteRow.swiftdeps"
+  }
+}

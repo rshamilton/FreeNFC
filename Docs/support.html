@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support & FAQ — Free NFC</title>
+  <meta name="description" content="Help, troubleshooting, and FAQs for Free NFC on iOS.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%2232%22%20height=%2232%22><text y=%2224%22 font-size=%2224%22>❓</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">📡</div>
+        <span>Free NFC</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features" class="nav-link">Features</a></li>
+        <li><a href="index.html#compatibility" class="nav-link">Compatibility</a></li>
+        <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+        <li><a href="support.html" class="nav-link active">Support</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="section">
+    <div class="container">
+      <div class="doc-content">
+        <div class="hero-badge">💡 Help Center</div>
+        <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px;">Support & FAQs</h1>
+        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 30px;">
+          Find answers to common questions, troubleshooting advice, and step-by-step guides.
+        </p>
+
+        <!-- Scanning Tips -->
+        <h2>NFC Scanning Best Practices</h2>
+        <div class="grid-2" style="margin: 20px 0 30px;">
+          <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px;">
+            <strong style="color: var(--accent-blue);">📍 Antenna Location</strong>
+            <p style="font-size: 0.9rem; margin-top: 6px; margin-bottom: 0;">
+              The iPhone NFC antenna is centered along the top rear rim of the device. Rest the top edge of your phone directly against the tag.
+            </p>
+          </div>
+          <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px;">
+            <strong style="color: var(--accent-green);">⏱️ Hold Steady</strong>
+            <p style="font-size: 0.9rem; margin-top: 6px; margin-bottom: 0;">
+              Keep your phone steady for 1 to 2 seconds. Full chip memory dumps execute dozens of rapid transceive commands in sequence.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <div class="faq-question">Why can't I clone transit cards, credit cards, or my office badge?</div>
+          <div class="faq-answer">
+            Contactless payment cards (Visa, Mastercard, Amex), transit systems (Clipper, Suica, Oyster), and secure access credentials use proprietary hardware encryption (such as MIFARE Classic Crypto1 or secure EMV microcontrollers). Apple CoreNFC does not grant raw cryptographic access to these protected sectors on iOS.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Which blank NFC tags should I buy for best compatibility?</div>
+          <div class="faq-answer">
+            We highly recommend <strong>NTAG215</strong> (504 bytes user memory) or <strong>NTAG213</strong> (144 bytes) stickers/cards. They are fully compatible with iPhone, Android, Amiibo gaming figures, smart posters, and all Free NFC features.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How do I use the Computer Reader Bridge?</div>
+          <div class="faq-answer">
+            1. Connect your iPhone and computer to the same local Wi-Fi network.<br>
+            2. Open <em>Tools → Computer Reader</em> in the app and toggle the server on.<br>
+            3. Scan the displayed QR code or enter the IP address (e.g. <code>http://192.168.1.50:8080</code>) into Safari or Chrome on your computer.<br>
+            4. Click "Read a tag" on your computer to trigger an NFC scan through your phone!
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How does Password Recovery / Unbricking work?</div>
+          <div class="faq-answer">
+            If a tag was protected with an unknown password, navigate to <em>Tools → Password Protection → Recover</em>. The app will systematically test common factory authentication keys (<code>FF FF FF FF</code> and <code>00 00 00 00</code>) or custom dictionary candidates to authenticate and reset the AUTH0 boundary page back to an unlocked state.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How do I write a Wi-Fi or Contact vCard tag?</div>
+          <div class="faq-answer">
+            Go to the <em>Write</em> tab, select <em>Contact Card (vCard)</em> or <em>Wi-Fi Network</em>, fill out the required fields, and tap <em>Add Record</em>. Then tap <em>Write to Tag</em> at the bottom and hold a blank tag against the top edge of your iPhone.
+          </div>
+        </div>
+
+        <!-- Contact Support -->
+        <h2>Need More Help?</h2>
+        <p>If you encounter an issue, have a feature suggestion, or need technical assistance:</p>
+        <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 18px;">
+          <a href="https://github.com/rshamilton/FreeNFC/issues" class="btn btn-primary" target="_blank" rel="noopener">
+            <span>Open a GitHub Issue</span>
+          </a>
+          <a href="mailto:rshamilton.dev@gmail.com?subject=Free%20NFC%20Support" class="btn btn-secondary">
+            <span>Email Developer</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <strong>Free NFC</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
+        </div>
+        <ul class="footer-links">
+          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
+          <li><a href="terms.html" class="footer-link">Terms</a></li>
+          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Free NFC. Released under the MIT License.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

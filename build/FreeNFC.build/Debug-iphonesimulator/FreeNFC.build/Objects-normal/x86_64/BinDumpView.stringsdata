@@ -1,0 +1,152 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/BinDumpView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Full .bin Dump",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write .bin to Tag",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "Size",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning…",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read Tag & Create .bin",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export %@",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full Dump",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reads every page/block this app can reach and saves it as a raw .bin file.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Block Size",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "4",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Block",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "4",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Allow writing protected pages",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Restore from .bin",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "A .bin exported by this app is a full dump, so restore it starting at block 0 — the UID, lock, capability and password pages are skipped automatically. “Allow writing protected pages” lifts that guard; it can permanently brick a tag, so leave it off unless you truly need it.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hold Near Tag to Write",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "This overwrites the target tag's memory starting at block %@.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 95
+        }
+      }
+    ]
+  },
+  "version": 1
+}

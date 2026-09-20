@@ -1,0 +1,120 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Tools/ComputerBridgeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Computer Reader",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open on your computer",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Mac and iPhone must be on the same Wi-Fi network. Open the address above in Safari or Chrome. Keep this screen open — scans use the phone's NFC hardware, so the app has to stay in the foreground.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reader is on",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reader is off",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld computer%@ connected",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start it, then open the address on your Mac.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connect the iPhone to Wi-Fi to get an address.",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning…",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan a tag now",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can also trigger scans and writes from the computer's browser.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nothing yet.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 120
+        }
+      }
+    ]
+  },
+  "version": 1
+}

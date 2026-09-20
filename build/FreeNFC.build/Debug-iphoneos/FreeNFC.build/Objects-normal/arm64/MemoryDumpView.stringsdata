@@ -1,0 +1,56 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Read/MemoryDumpView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Blocks",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Size",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Block Size",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chip",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy All as Hex",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export as .bin",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 42
+        }
+      }
+    ]
+  },
+  "version": 1
+}

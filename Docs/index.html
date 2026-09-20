@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free NFC — Open-Source NFC Toolkit for iOS</title>
+  <meta name="description" content="The ultimate, 100% free, private, and open-source NFC reader, writer, cloner, and diagnostic toolkit for iOS.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%2232%22%20height=%2232%22><text y=%2224%22 font-size=%2224%22>📡</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">📡</div>
+        <span>Free NFC</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#compatibility" class="nav-link">Compatibility</a></li>
+        <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+        <li><a href="support.html" class="nav-link">Support</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge">✨ 100% Free · Open Source · Zero Ads · Zero Trackers</div>
+      <h1 class="hero-title">The Complete NFC Toolkit<br>for iPhone</h1>
+      <p class="hero-subtitle">
+        Deep chip diagnostics, multi-record NDEF writing, tag cloning, low-level memory editing, 32-bit password recovery, and local Wi-Fi computer bridging — entirely on-device.
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/rshamilton/FreeNFC" class="btn btn-primary" target="_blank" rel="noopener">
+          <span>View on GitHub</span>
+          <span>→</span>
+        </a>
+        <a href="#features" class="btn btn-secondary">Explore Capabilities</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Key Features Grid -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Capabilities</div>
+        <h2 class="section-title">Built for Power Users & Everyday Tags</h2>
+        <p class="section-subtitle">Engineered with Apple CoreNFC, SwiftData, and zero external dependencies.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Feature 1 -->
+        <div class="card">
+          <div class="card-icon icon-blue">🔍</div>
+          <h3 class="card-title">Deep Tag Reading</h3>
+          <p class="card-desc">
+            Instantly inspects chip manufacturer, model (NTAG213/215/216, Ultralight, SLIX, FeliCa), UID, NDEF capacity, lock bits, CC page, originality signatures, and full raw memory dumps.
+          </p>
+          <ul class="card-list">
+            <li>4-byte page & multi-block memory maps</li>
+            <li>ASCII & Hex real-time payload parser</li>
+            <li>Automatic diagnostic & issue analyzer</li>
+          </ul>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="card">
+          <div class="card-icon icon-purple">✍️</div>
+          <h3 class="card-title">Multi-Record Writer</h3>
+          <p class="card-desc">
+            Compose and write rich NDEF messages. Stage multiple records to write in a single tap with live capacity indicators.
+          </p>
+          <ul class="card-list">
+            <li>URLs, Wi-Fi tokens, Contact vCards</li>
+            <li>Social profiles (Instagram, X, TikTok, GitHub)</li>
+            <li>Payment handles, Calendar, SMS, Custom TNF</li>
+          </ul>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="card">
+          <div class="card-icon icon-green">📋</div>
+          <h3 class="card-title">Tag Duplication</h3>
+          <p class="card-desc">
+            Save scanned tag templates to your local library and clone their NDEF records and user memory blocks onto blank tags.
+          </p>
+          <ul class="card-list">
+            <li>Offline SwiftData tag library</li>
+            <li>1-Tap cloning to compatible blanks</li>
+            <li>JSON export & backup sharing</li>
+          </ul>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="card">
+          <div class="card-icon icon-orange">🛠️</div>
+          <h3 class="card-title">Advanced Power Tools</h3>
+          <p class="card-desc">
+            Low-level tools for developers and hardware tinkerers. Permanent lock bits, format blanks, 32-bit password setup, unbricking recovery, and raw binary dumping.
+          </p>
+          <ul class="card-list">
+            <li>Interactive byte-level Memory Editor</li>
+            <li>Full .bin dump & restore</li>
+            <li>Manual ISO14443/15693 command transceiver</li>
+          </ul>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="card">
+          <div class="card-icon icon-cyan">💻</div>
+          <h3 class="card-title">Computer Reader Bridge</h3>
+          <p class="card-desc">
+            Turn your iPhone into a wireless NFC reader for your Mac or PC browser over local Wi-Fi without installing software on your computer.
+          </p>
+          <ul class="card-list">
+            <li>Zero-install local web dashboard</li>
+            <li>Server-Sent Events (SSE) live updates</li>
+            <li>Read & write tags directly from computer</li>
+          </ul>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="card">
+          <div class="card-icon icon-red">🔒</div>
+          <h3 class="card-title">Privacy Guaranteed</h3>
+          <p class="card-desc">
+            100% on-device processing. No accounts, no advertising, no analytics SDKs, and no telemetry. Your tag data never leaves your device.
+          </p>
+          <ul class="card-list">
+            <li>No Firebase, Mixpanel, or trackers</li>
+            <li>Local network only for Computer Bridge</li>
+            <li>Fully auditable open-source codebase</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tag Compatibility Table -->
+  <section class="section" id="compatibility" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Specifications</div>
+        <h2 class="section-title">NFC Tag Compatibility Matrix</h2>
+        <p class="section-subtitle">Detailed breakdown of supported chip technologies and capabilities on iOS.</p>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Chip Family</th>
+              <th>Common Tags</th>
+              <th>Status</th>
+              <th>Supported Features</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>NTAG21x / Ultralight</strong></td>
+              <td>NTAG213, NTAG215 (Amiibo), NTAG216, EV1</td>
+              <td><span class="status-badge badge-success">Full Support</span></td>
+              <td>Read, Write NDEF, Format, Memory Editor, Lock, Password, .bin Dump/Restore</td>
+            </tr>
+            <tr>
+              <td><strong>ISO 15693 (Vicinity)</strong></td>
+              <td>ICODE SLIX, SLIX2, Tag-it HF-I</td>
+              <td><span class="status-badge badge-success">Full Support</span></td>
+              <td>Read, Write NDEF, Block Locking, Memory Dump, AFI/DSFID, Custom Commands</td>
+            </tr>
+            <tr>
+              <td><strong>ISO 7816 (Smart Cards)</strong></td>
+              <td>Type 4 NFC, DESFire EV1/2/3, Calypso</td>
+              <td><span class="status-badge badge-info">NDEF + APDU</span></td>
+              <td>NDEF File Read/Write, Raw APDU Command Transceiver, SW1/SW2 Status Inspection</td>
+            </tr>
+            <tr>
+              <td><strong>FeliCa (Type 3)</strong></td>
+              <td>FeliCa Lite-S, FeliCa Standard</td>
+              <td><span class="status-badge badge-info">NDEF + Commands</span></td>
+              <td>Type 3 NDEF blocks, System Code & Manufacturer Code decoding, Polling</td>
+            </tr>
+            <tr>
+              <td><strong>MIFARE Classic (1K/4K)</strong></td>
+              <td>Classic 1K, Classic 4K</td>
+              <td><span class="status-badge badge-warning">UID Only</span></td>
+              <td>UID Detection (Apple CoreNFC does not provide Crypto1 access required for memory)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <strong>Free NFC</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
+        </div>
+        <ul class="footer-links">
+          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
+          <li><a href="terms.html" class="footer-link">Terms</a></li>
+          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Free NFC. Released under the MIT License.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

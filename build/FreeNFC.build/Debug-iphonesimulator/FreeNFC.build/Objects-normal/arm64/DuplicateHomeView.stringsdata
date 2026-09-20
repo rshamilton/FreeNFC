@@ -1,0 +1,96 @@
+{
+  "source": "/Users/Ryan/Downloads/Free NFC/FreeNFC/Features/Duplicate/DuplicateHomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Duplicate",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Tag",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved Tags",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning…",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save a Tag to Copy",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Step 1: scan the tag you want to copy. Step 2: pick it below and write it onto a new tag.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Give this tag a name you'll recognize later.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 59
+        }
+      }
+    ]
+  },
+  "version": 1
+}
