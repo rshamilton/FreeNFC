@@ -71,7 +71,7 @@ struct SupportHelpView: View {
                 }
 
                 Button {
-                    let mailto = "mailto:rshamilton.dev@gmail.com?subject=Free%20NFC%20Feedback%20%26%20Support"
+                    let mailto = "mailto:freenfc@googlegroups.com?subject=Free%20NFC%20Feedback%20%26%20Support"
                     if let url = URL(string: mailto) {
                         openURL(url)
                     }
