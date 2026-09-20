@@ -65,6 +65,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* Container */
@@ -155,6 +156,15 @@ body {
 .nav-cta:hover {
   opacity: 0.9;
   transform: translateY(-1px);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--accent-blue);
+  outline-offset: 2px;
 }
 
 /* Hero Section */
@@ -362,10 +372,12 @@ body {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   margin-top: 24px;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
   width: 100%;
+  min-width: 680px;
   border-collapse: collapse;
   text-align: left;
 }
@@ -506,4 +518,120 @@ footer {
   font-size: 0.8rem;
   padding-top: 20px;
   border-top: 1px solid var(--border-color);
+}
+
+.hero-subtitle,
+.card-desc,
+.card-list li,
+.faq-question,
+.faq-answer,
+.doc-content p,
+.doc-content li,
+td,
+.footer-brand {
+  overflow-wrap: anywhere;
+}
+
+.doc-content code {
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .grid-2 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .nav-container {
+    height: auto;
+    min-height: 64px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+  }
+
+  .nav-link,
+  .nav-cta,
+  .footer-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .hero {
+    padding: 56px 0 44px;
+  }
+
+  .hero-badge {
+    margin-bottom: 16px;
+  }
+
+  .hero-title br {
+    display: none;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+  }
+
+  .section {
+    padding: 54px 0;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card {
+    padding: 24px 18px;
+  }
+
+  .doc-content {
+    border-radius: var(--radius-lg);
+    padding: 28px 18px;
+  }
+
+  .doc-content h2 {
+    font-size: 1.25rem;
+    margin: 28px 0 12px;
+  }
+
+  .faq-question {
+    font-size: 1.05rem;
+  }
+
+  .footer-links {
+    gap: 8px 14px;
+    flex-wrap: wrap;
+  }
 }
