@@ -22,10 +22,10 @@ enum BridgeWebPage {
       .dot.on { background:var(--ok); }
       main { max-width:820px; margin:0 auto; padding:20px; }
       .row { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
-      button { font:inherit; font-weight:600; border:0; border-radius:12px; padding:12px 18px; background:var(--accent); color:#fff; cursor:pointer; }
+      button { font:inherit; font-weight:600; border:0; border-radius:12px; padding:12px 18px; background:var(--accent); color:#fff; cursor:pointer; min-height:44px; }
       button.secondary { background:var(--card); color:var(--ink); border:1px solid var(--line); }
       button:active { transform:translateY(1px); }
-      input[type=text] { flex:1; min-width:180px; font:inherit; padding:12px 14px; border-radius:12px; border:1px solid var(--line); background:var(--card); color:var(--ink); }
+      input[type=text] { flex:1; min-width:180px; font:inherit; padding:12px 14px; border-radius:12px; border:1px solid var(--line); background:var(--card); color:var(--ink); min-height:44px; }
       .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin-bottom:14px; }
       .card h2 { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--sub); margin:0 0 10px; }
       .kv { display:flex; justify-content:space-between; gap:16px; padding:6px 0; border-bottom:1px solid var(--line); }
@@ -47,6 +47,17 @@ enum BridgeWebPage {
       .muted { color:var(--sub); }
       .empty { text-align:center; color:var(--sub); padding:40px 0; }
       footer { text-align:center; color:var(--sub); font-size:12px; padding:24px; }
+      button:focus-visible, input[type=text]:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+      @media (max-width: 480px) {
+        header { padding:16px 14px; }
+        header h1 { font-size:16px; }
+        main { padding:14px; }
+        .row { gap:10px; margin-bottom:14px; }
+        .row > * { flex:1 1 100%; }
+        .card { padding:14px; }
+        .kv { flex-direction:column; gap:2px; }
+        .kv .v { text-align:left; }
+      }
     </style>
     </head>
     <body>
