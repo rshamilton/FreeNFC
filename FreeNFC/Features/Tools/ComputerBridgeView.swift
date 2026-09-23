@@ -88,7 +88,7 @@ private struct BridgeContentView: View {
                 Button {
                     if let url = URL(string: UIApplication.openSettingsURLString) { openURL(url) }
                 } label: {
-                    Label("Open Free NFC Settings", systemImage: "gear")
+                    Label("Open NFC Forge Settings", systemImage: "gear")
                 }
             } footer: {
                 Text("iOS asks for Local Network permission the first time the reader starts. If you tapped Don't Allow, turn “Local Network” back on here, then switch the reader off and on again.")

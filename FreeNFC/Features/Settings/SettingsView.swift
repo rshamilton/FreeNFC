@@ -184,7 +184,7 @@ struct SettingsView: View {
                     openURL(url)
                 }
             } label: {
-                Label("Free NFC Website", systemImage: "globe")
+                Label("NFC Forge Website", systemImage: "globe")
             }
 
             Button {
@@ -198,7 +198,7 @@ struct SettingsView: View {
             Text("About")
         } footer: {
             VStack(alignment: .center, spacing: 4) {
-                Text("Free NFC · 100% Free & Open-Source")
+                Text("NFC Forge · Open-Source")
                 Text("Zero Ads · Zero Trackers · No Cloud Required")
                 Text("© 2026 Ryan Hamilton · MIT License")
             }
@@ -213,7 +213,7 @@ struct SettingsView: View {
         if !savedTags.isEmpty {
             let tagModels = savedTags.compactMap { $0.scannedTag }
             if let data = try? JSONEncoder().encode(tagModels) {
-                exportedTagsURL = try? FileExport.writeTempFile(data: data, suggestedName: "FreeNFC_SavedTags_\(Date().formatted(date: .numeric, time: .omitted)).json")
+                exportedTagsURL = try? FileExport.writeTempFile(data: data, suggestedName: "NFCForge_SavedTags_\(Date().formatted(date: .numeric, time: .omitted)).json")
             }
         } else {
             exportedTagsURL = nil
@@ -229,7 +229,7 @@ struct SettingsView: View {
                 csv += "\(dateStr),\"\(entry.techLabel)\",\"\(cleanCmd)\",\"\(cleanResp)\",\(entry.succeeded)\n"
             }
             if let data = csv.data(using: .utf8) {
-                exportedHistoryURL = try? FileExport.writeTempFile(data: data, suggestedName: "FreeNFC_Commands_\(Date().formatted(date: .numeric, time: .omitted)).csv")
+                exportedHistoryURL = try? FileExport.writeTempFile(data: data, suggestedName: "NFCForge_Commands_\(Date().formatted(date: .numeric, time: .omitted)).csv")
             }
         } else {
             exportedHistoryURL = nil

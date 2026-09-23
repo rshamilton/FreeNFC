@@ -68,7 +68,7 @@ final class ComputerBridgeServer: ObservableObject {
     private var eventClients: [ObjectIdentifier: NWConnection] = [:]
     private var didFallBackToAnyPort = false
 
-    init(serviceName: String = "Free NFC Reader") {
+    init(serviceName: String = "NFC Forge Reader") {
         self.serviceName = serviceName
     }
 
@@ -176,7 +176,7 @@ final class ComputerBridgeServer: ObservableObject {
             switch code {
             case .EADDRINUSE: return "That port is already in use."
             case .EACCES, .EPERM:
-                return "Local Network access is off. Allow it in Settings → Free NFC → Local Network."
+                return "Local Network access is off. Allow it in Settings → NFC Forge → Local Network."
             case .ENETDOWN, .EHOSTUNREACH, .ENETUNREACH:
                 return "No network. Connect the iPhone to Wi-Fi."
             default: break

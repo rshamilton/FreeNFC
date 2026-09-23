@@ -83,7 +83,7 @@ struct SupportedTagsDetailView: View {
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(.blue)
 
-                    Text("Free NFC actively guards against accidental tag bricking by protecting lock bytes (pages 0x02–0x03), capability containers (page 0x03), and password/auth registers (pages 0xE2–0xE5 on NTAG215) during standard write operations.")
+                    Text("NFC Forge actively guards against accidental tag bricking by protecting lock bytes (pages 0x02–0x03), capability containers (page 0x03), and password/auth registers (pages 0xE2–0xE5 on NTAG215) during standard write operations.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
 

@@ -21,7 +21,7 @@ struct PrivacyPolicyView: View {
                     }
                     .padding(.vertical, 4)
 
-                    Text("Free NFC was built with an uncompromising commitment to privacy. We do not track you, we do not log your activity, and we never collect or transmit the data stored on your NFC tags.")
+                    Text("NFC Forge was built with an uncompromising commitment to privacy. We do not track you, we do not log your activity, and we never collect or transmit the data stored on your NFC tags.")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -86,7 +86,7 @@ struct PrivacyPolicyView: View {
                     Label("View Web Privacy Policy", systemImage: "safari")
                 }
             } footer: {
-                Text("Last updated: September 2026. Free NFC is open-source software released under the MIT License.")
+                Text("Last updated: September 2026. NFC Forge is open-source software released under the MIT License.")
             }
         }
         .navigationTitle("Privacy Policy")

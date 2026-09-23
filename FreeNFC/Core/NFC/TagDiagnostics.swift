@@ -53,7 +53,7 @@ enum TagDiagnostics {
             issues.append(TagIssue(
                 severity: .info,
                 title: "FeliCa secure services",
-                detail: "Most FeliCa services (transit, e-money) are encrypted and need issuer keys. Free NFC can read unencrypted services and NDEF, and send raw commands."
+                detail: "Most FeliCa services (transit, e-money) are encrypted and need issuer keys. NFC Forge can read unencrypted services and NDEF, and send raw commands."
             ))
         }
 

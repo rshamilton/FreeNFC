@@ -316,7 +316,7 @@ struct ReadResultView: View {
     }
 
     private func generateShareSummary() -> String {
-        var text = "Free NFC Scan Report\n"
+        var text = "NFC Forge Scan Report\n"
         text += "------------------------\n"
         text += "Tag Type: \(tag.family.rawValue)\n"
         if let chip = tag.techDetail { text += "Chip: \(chip)\n" }

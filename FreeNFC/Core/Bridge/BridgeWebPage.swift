@@ -10,7 +10,7 @@ enum BridgeWebPage {
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Free NFC — Computer Reader</title>
+    <title>NFC Forge — Computer Reader</title>
     <style>
       :root { color-scheme: light dark; --bg:#f5f5f7; --card:#ffffff; --ink:#1d1d1f; --sub:#6e6e73; --line:#e3e3e6; --accent:#0a84ff; --ok:#1a9e4b; --warn:#c77700; --err:#d23b2f; }
       @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --ink:#f5f5f7; --sub:#98989d; --line:#2c2c2e; } }
@@ -52,7 +52,7 @@ enum BridgeWebPage {
     <body>
     <header>
       <span class="dot" id="dot"></span>
-      <h1>Free NFC — Computer Reader</h1>
+      <h1>NFC Forge — Computer Reader</h1>
     </header>
     <main>
       <div class="row">
@@ -70,7 +70,7 @@ enum BridgeWebPage {
         <pre id="log">Connecting…</pre>
       </div>
     </main>
-    <footer>Served from your iPhone over the local network · Free NFC</footer>
+    <footer>Served from your iPhone over the local network · NFC Forge</footer>
 
     <script>
       const logEl = document.getElementById('log');

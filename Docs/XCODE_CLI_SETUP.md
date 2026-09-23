@@ -1,4 +1,4 @@
-# Building Free NFC from the command line
+# Building NFC Forge from the command line
 
 Xcode lives on the external drive, not `/Applications`, so `xcodebuild`/`xcrun` don't work
 out of the box. This is the one-time-per-shell fix, plus the exact commands used to scaffold
