@@ -62,21 +62,16 @@ struct SupportHelpView: View {
                     Label("Visit Online Support Portal", systemImage: "questionmark.circle")
                 }
 
-                Button {
-                    if let url = URL(string: "https://github.com/rshamilton/FreeNFC/issues/new") {
-                        openURL(url)
-                    }
+                NavigationLink {
+                    IssueReportView()
                 } label: {
-                    Label("Report an Issue on GitHub", systemImage: "ant.circle")
+                    Label("Report a Bug / Request a Feature", systemImage: "ladybug")
                 }
 
-                Button {
-                    let mailto = "mailto:freenfc@googlegroups.com?subject=Free%20NFC%20Feedback%20%26%20Support"
-                    if let url = URL(string: mailto) {
-                        openURL(url)
-                    }
+                NavigationLink {
+                    FeedbackView()
                 } label: {
-                    Label("Email Developer", systemImage: "envelope")
+                    Label("Email the Developer", systemImage: "envelope")
                 }
             }
         }

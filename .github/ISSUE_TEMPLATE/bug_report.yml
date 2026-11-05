@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in NFC Forge isn't working the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this — I read every issue.
+        Please don't paste passwords, payment card data, or other private tag contents here; this page is public.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Write → URL
+        2. Enter …
+        3. Tap Write and hold the tag
+    validations:
+      required: false
+  - type: input
+    id: tag
+    attributes:
+      label: Tag type (if known)
+      placeholder: e.g. NTAG215, MIFARE Ultralight, ISO 15693
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings → About → App Version
+      placeholder: e.g. 1.0 (Build 1)
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: e.g. iPhone 15 Pro, iOS 26.1
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, error messages, or other details.

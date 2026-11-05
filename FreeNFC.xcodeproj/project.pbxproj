@@ -59,8 +59,10 @@
 		8FE5BC5A9BC147128953CF72 /* SocialBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A33CBBA936BF0F80359D1 /* SocialBadge.swift */; };
 		93FAC6C34524213B77F55C2E /* BluetoothOOBBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D7403862D4FEEA1A3949 /* BluetoothOOBBuilder.swift */; };
 		94E37F8C30601680005ECC17 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37F8B30601680005ECC17 /* FeedbackManager.swift */; };
+		94E37FA230601700005ECC17 /* ReviewPrompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37FA130601700005ECC17 /* ReviewPrompter.swift */; };
 		94E37F8E3060168D005ECC17 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37F8D3060168D005ECC17 /* PrivacyPolicyView.swift */; };
 		94E37F9030601693005ECC17 /* SupportHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37F8F30601693005ECC17 /* SupportHelpView.swift */; };
+		94E37FA430601700005ECC17 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37FA330601700005ECC17 /* FeedbackView.swift */; };
 		94E37F9230601699005ECC17 /* SupportedTagsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37F9130601699005ECC17 /* SupportedTagsDetailView.swift */; };
 		94E37F94306016D6005ECC17 /* QRCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E37F93306016D6005ECC17 /* QRCodeHelper.swift */; };
 		976BE13E690BFA33B0D998F1 /* WriteLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A839DE7E5AB891F3730B77E /* WriteLocationView.swift */; };
@@ -136,8 +138,10 @@
 		9339FAE0E98A74CDA25FE875 /* FormatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatView.swift; sourceTree = "<group>"; };
 		940B58F44D2D40D31D875989 /* CloneEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneEngine.swift; sourceTree = "<group>"; };
 		94E37F8B30601680005ECC17 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		94E37FA130601700005ECC17 /* ReviewPrompter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPrompter.swift; sourceTree = "<group>"; };
 		94E37F8D3060168D005ECC17 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		94E37F8F30601693005ECC17 /* SupportHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportHelpView.swift; sourceTree = "<group>"; };
+		94E37FA330601700005ECC17 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 		94E37F9130601699005ECC17 /* SupportedTagsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedTagsDetailView.swift; sourceTree = "<group>"; };
 		94E37F93306016D6005ECC17 /* QRCodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeHelper.swift; sourceTree = "<group>"; };
 		96F5E448E7DB0721BE1276A4 /* WriteFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFileView.swift; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 				087797018099D785BEED4B70 /* SettingsView.swift */,
 				94E37F8D3060168D005ECC17 /* PrivacyPolicyView.swift */,
 				94E37F8F30601693005ECC17 /* SupportHelpView.swift */,
+				94E37FA330601700005ECC17 /* FeedbackView.swift */,
 				94E37F9130601699005ECC17 /* SupportedTagsDetailView.swift */,
 			);
 			path = Settings;
@@ -260,6 +265,7 @@
 				0E5B93D81EDC836CF43E0558 /* PaymentLinkBuilder.swift */,
 				65433F2F71D717B06B3D8D84 /* SocialLinkBuilder.swift */,
 				94E37F8B30601680005ECC17 /* FeedbackManager.swift */,
+				94E37FA130601700005ECC17 /* ReviewPrompter.swift */,
 				94E37F93306016D6005ECC17 /* QRCodeHelper.swift */,
 			);
 			path = Utilities;
@@ -472,6 +478,7 @@
 				0DD03A6C96C9D0D66C4E6B24 /* DuplicateHomeView.swift in Sources */,
 				D46ADE7E0DCCC9A8F84208DB /* EraseView.swift in Sources */,
 				94E37F9030601693005ECC17 /* SupportHelpView.swift in Sources */,
+				94E37FA430601700005ECC17 /* FeedbackView.swift in Sources */,
 				BEFED52A05FD9AF83931A3E6 /* FeliCaCommands.swift in Sources */,
 				5D30390298B330CFA5B3EEFD /* FileExport.swift in Sources */,
 				7759BBDB311F1FD9447EEF59 /* FormatView.swift in Sources */,
@@ -498,6 +505,7 @@
 				16FA52DB0ADFC44E92F9CB9A /* NFCSessionManager.swift in Sources */,
 				0931814ECD6CDB60A6215940 /* PasswordView.swift in Sources */,
 				94E37F8C30601680005ECC17 /* FeedbackManager.swift in Sources */,
+				94E37FA230601700005ECC17 /* ReviewPrompter.swift in Sources */,
 				2D91973B487A057E457E0EFA /* PaymentLinkBuilder.swift in Sources */,
 				B6A2AE50DD69BBC0AA61E49A /* PrimaryActionButton.swift in Sources */,
 				1056D43AAC2F866B3BDA4AFB /* ReadResultView.swift in Sources */,

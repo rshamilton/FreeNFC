@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an idea or improvement for NFC Forge.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas big and small are welcome — I read every one.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like NFC Forge to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What are you trying to accomplish? How do you work around it today?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Examples from other apps, mockups, links, tag types involved, etc.

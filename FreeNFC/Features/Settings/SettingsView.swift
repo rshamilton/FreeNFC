@@ -30,6 +30,7 @@ struct SettingsView: View {
             preferencesSection
             dataManagementSection
             guidesSection
+            feedbackSection
             aboutSection
         }
         .navigationTitle("Settings")
@@ -167,6 +168,32 @@ struct SettingsView: View {
             } label: {
                 Label("Privacy Policy", systemImage: "hand.raised.shield")
             }
+        }
+    }
+
+    private var feedbackSection: some View {
+        Section {
+            Button {
+                openURL(ReviewPrompter.writeReviewURL)
+            } label: {
+                Label("Rate NFC Forge", systemImage: "star")
+            }
+
+            NavigationLink {
+                FeedbackView()
+            } label: {
+                Label("Send Feedback", systemImage: "envelope")
+            }
+
+            NavigationLink {
+                IssueReportView()
+            } label: {
+                Label("Report a Bug / Request a Feature", systemImage: "ladybug")
+            }
+        } header: {
+            Text("Feedback")
+        } footer: {
+            Text("NFC Forge is free and ad-free. Ratings and feedback are the best way to support it.")
         }
     }
 

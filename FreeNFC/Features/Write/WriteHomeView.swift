@@ -179,6 +179,7 @@ struct WriteHomeView: View {
             FeedbackManager.shared.success()
             successMessage = "Tag written successfully!"
             store.clear()
+            ReviewPrompter.recordSuccess(.majorSuccess)
         case .failure(let error):
             if !NFCSessionManager.isUserCancellation(error) {
                 FeedbackManager.shared.error()

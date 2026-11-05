@@ -47,6 +47,7 @@ struct ReadView: View {
                 modelContext.insert(saved)
             }
             scannedTag = tag
+            ReviewPrompter.recordSuccess(.minorSuccess)
         case .failure(let error):
             if !NFCSessionManager.isUserCancellation(error) {
                 FeedbackManager.shared.error()

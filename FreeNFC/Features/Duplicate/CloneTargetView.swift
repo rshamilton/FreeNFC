@@ -65,6 +65,7 @@ struct CloneTargetView: View {
         switch outcome {
         case .success:
             successMessage = "Duplicated successfully."
+            ReviewPrompter.recordSuccess(.majorSuccess)
         case .failure(let error):
             if !NFCSessionManager.isUserCancellation(error) {
                 errorMessage = NFCSessionManager.friendlyMessage(for: error)
