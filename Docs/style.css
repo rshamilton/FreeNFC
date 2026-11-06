@@ -1,21 +1,22 @@
 :root {
-  --bg-primary: #0a0a0c;
-  --bg-secondary: #141418;
-  --bg-card: rgba(26, 26, 32, 0.75);
-  --bg-card-hover: rgba(36, 36, 46, 0.85);
+  --bg-primary: #070b14;
+  --bg-secondary: #0d1424;
+  --bg-card: rgba(20, 30, 50, 0.72);
+  --bg-card-hover: rgba(28, 42, 70, 0.85);
   --border-color: rgba(255, 255, 255, 0.08);
   --border-color-hover: rgba(255, 255, 255, 0.16);
   --text-primary: #ffffff;
-  --text-secondary: #9a9aa8;
-  --text-tertiary: #6b6b7a;
-  --accent-blue: #0a84ff;
-  --accent-blue-glow: rgba(10, 132, 255, 0.35);
+  --text-secondary: #9aa6bc;
+  --text-tertiary: #6a778f;
+  --accent-blue: #448adb;
+  --accent-blue-glow: rgba(68, 138, 219, 0.35);
   --accent-cyan: #64d2ff;
   --accent-purple: #bf5af2;
   --accent-green: #30d158;
   --accent-orange: #ff9f0a;
   --accent-red: #ff453a;
-  --gradient-accent: linear-gradient(135deg, #0a84ff 0%, #bf5af2 100%);
+  --gradient-accent: linear-gradient(135deg, #133b78 0%, #1c63b5 50%, #4e96de 100%);
+  --brand-glow: rgba(28, 99, 181, 0.45);
   --gradient-card: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
@@ -28,7 +29,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-primary: #f5f5f7;
+    --bg-primary: #f2f5fa;
     --bg-secondary: #ffffff;
     --bg-card: rgba(255, 255, 255, 0.85);
     --bg-card-hover: #ffffff;
@@ -37,8 +38,9 @@
     --text-primary: #1d1d1f;
     --text-secondary: #6e6e73;
     --text-tertiary: #86868b;
-    --accent-blue: #0071e3;
-    --accent-blue-glow: rgba(0, 113, 227, 0.25);
+    --accent-blue: #1652ad;
+    --accent-blue-glow: rgba(22, 82, 173, 0.25);
+    --brand-glow: rgba(28, 99, 181, 0.22);
     --accent-cyan: #007799;
     --accent-purple: #9b51e0;
     --accent-green: #248a3d;
@@ -82,14 +84,14 @@ body {
   z-index: 100;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  background-color: rgba(10, 10, 12, 0.8);
+  background-color: rgba(7, 11, 20, 0.8);
   border-bottom: 1px solid var(--border-color);
   transition: all 0.2s ease;
 }
 
 @media (prefers-color-scheme: light) {
   .navbar {
-    background-color: rgba(245, 245, 247, 0.8);
+    background-color: rgba(242, 245, 250, 0.8);
   }
 }
 
@@ -114,13 +116,9 @@ body {
 .nav-logo-icon {
   width: 32px;
   height: 32px;
-  border-radius: 8px;
-  background: var(--gradient-accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 16px;
+  border-radius: 22.5%;
+  display: block;
+  box-shadow: 0 2px 8px var(--brand-glow);
 }
 
 .nav-links {
@@ -143,7 +141,7 @@ body {
 }
 
 .nav-cta {
-  background: var(--accent-blue);
+  background: var(--gradient-accent);
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 20px;
@@ -173,6 +171,26 @@ select:focus-visible {
   text-align: center;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -40% -10% auto;
+  height: 120%;
+  background: radial-gradient(ellipse at 50% 30%, var(--brand-glow) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.hero-icon {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 28px;
+  border-radius: 22.5%;
+  box-shadow: 0 18px 50px var(--brand-glow), 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
 }
 
 .hero-badge {
@@ -230,7 +248,7 @@ select:focus-visible {
 }
 
 .btn-primary {
-  background: var(--accent-blue);
+  background: var(--gradient-accent);
   color: #fff;
   box-shadow: 0 4px 18px var(--accent-blue-glow);
 }
@@ -325,7 +343,7 @@ select:focus-visible {
   margin-bottom: 20px;
 }
 
-.icon-blue { background: rgba(10, 132, 255, 0.15); color: var(--accent-blue); }
+.icon-blue { background: rgba(68, 138, 219, 0.16); color: var(--accent-blue); }
 .icon-purple { background: rgba(191, 90, 242, 0.15); color: var(--accent-purple); }
 .icon-green { background: rgba(48, 209, 88, 0.15); color: var(--accent-green); }
 .icon-orange { background: rgba(255, 159, 10, 0.15); color: var(--accent-orange); }
@@ -412,7 +430,7 @@ tr:last-child td {
 }
 
 .badge-success { background: rgba(48, 209, 88, 0.15); color: var(--accent-green); }
-.badge-info { background: rgba(10, 132, 255, 0.15); color: var(--accent-blue); }
+.badge-info { background: rgba(68, 138, 219, 0.16); color: var(--accent-blue); }
 .badge-warning { background: rgba(255, 159, 10, 0.15); color: var(--accent-orange); }
 
 /* Policy / Document Content */
@@ -453,8 +471,8 @@ tr:last-child td {
 }
 
 .highlight-box {
-  background: rgba(10, 132, 255, 0.08);
-  border: 1px solid rgba(10, 132, 255, 0.2);
+  background: rgba(68, 138, 219, 0.08);
+  border: 1px solid rgba(68, 138, 219, 0.22);
   border-radius: var(--radius-md);
   padding: 20px;
   margin: 24px 0;
@@ -575,6 +593,12 @@ td,
 
   .hero-badge {
     margin-bottom: 16px;
+  }
+
+  .hero-icon {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 22px;
   }
 
   .hero-title br {
