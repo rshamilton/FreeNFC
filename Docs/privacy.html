@@ -4,120 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — NFC Forge</title>
-  <meta name="description" content="Privacy Policy for NFC Forge. Zero data collection, 100% on-device processing.">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="NFC Forge doesn't collect any data. Everything stays on your iPhone.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#1652AD">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="index.html" class="nav-logo">
-        <img class="nav-logo-icon" src="assets/favicon-64.png" alt="" width="32" height="32">
-        <span>NFC Forge</span>
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html#features" class="nav-link">Features</a></li>
-        <li><a href="index.html#compatibility" class="nav-link">Compatibility</a></li>
-        <li><a href="privacy.html" class="nav-link active">Privacy</a></li>
-        <li><a href="support.html" class="nav-link">Support</a></li>
-        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+  <header class="bar">
+    <div class="page">
+      <a href="index.html" class="bar-title"><img src="assets/favicon-64.png" alt="" width="28" height="28"><span>NFC Forge</span></a>
+      <ul class="bar-links">
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC">GitHub</a></li>
       </ul>
     </div>
-  </nav>
+  </header>
 
-  <!-- Content -->
-  <main class="section">
-    <div class="container">
-      <div class="doc-content">
-        <div class="hero-badge">🔒 Effective Date: September 20, 2026</div>
-        <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px;">Privacy Policy</h1>
-        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 24px;">
-          NFC Forge is designed with a strict zero-data-collection philosophy. Your privacy is paramount.
-        </p>
+  <main class="page">
+    <h1 class="large-title">Privacy Policy</h1>
+    <p class="dateline">Effective September 20, 2026</p>
 
-        <div class="highlight-box">
-          <strong style="color: var(--accent-blue); font-size: 1.05rem;">Summary in Plain English:</strong>
-          <p style="margin-top: 8px; margin-bottom: 0;">
-            NFC Forge does not collect, record, track, transmit, share, or monetize any of your personal data, tag scan contents, memory dumps, or usage activity. Everything happens 100% on your device.
-          </p>
-        </div>
+    <section class="section">
+      <h2 class="section-header">In Short</h2>
+      <ul class="group">
+        <li><div class="text-cell">
+          <p>NFC Forge doesn't collect, track, send, share or sell any of your data. That includes personal information, the contents of tags you scan, memory dumps and how you use the app. Everything happens on your iPhone.</p>
+        </div></li>
+      </ul>
+    </section>
 
-        <h2>1. Information We Do Not Collect</h2>
-        <p>When you use NFC Forge on iOS, we do <strong>not</strong> collect:</p>
-        <ul>
-          <li>Personal identification information (names, email addresses, phone numbers).</li>
-          <li>NFC tag payload data (NDEF messages, vCards, URLs, Wi-Fi credentials).</li>
-          <li>Raw tag memory dumps, lock status, or hardware cryptographic keys.</li>
-          <li>Device identifiers (IDFA, IDFV, MAC addresses, IP addresses).</li>
-          <li>Location data or GPS coordinates.</li>
-          <li>Behavioral usage telemetry, session analytics, or crash logs sent to external servers.</li>
-        </ul>
+    <article class="prose">
+      <h2>1. What we don't collect</h2>
+      <p>When you use NFC Forge, we do <strong>not</strong> collect:</p>
+      <ul>
+        <li>Personal information, such as your name, email address or phone number.</li>
+        <li>Tag contents, including NDEF messages, contact cards, URLs and Wi-Fi passwords.</li>
+        <li>Raw memory dumps, lock status or tag passwords.</li>
+        <li>Device identifiers (IDFA, IDFV, MAC address or IP address).</li>
+        <li>Location data.</li>
+        <li>Usage analytics or crash logs sent to an outside server.</li>
+      </ul>
 
-        <h2>2. On-Device Local Storage</h2>
-        <p>
-          NFC Forge utilizes Apple's SwiftData framework to store information you explicitly choose to save (such as your saved tag library for duplication and manual command history logs).
-        </p>
-        <p>
-          This data is stored exclusively in your iPhone's protected local application sandbox. It is never uploaded to external servers, cloud services, or third-party networks. You can clear your saved tags and history at any time directly in the in-app Settings.
-        </p>
+      <h2>2. What's stored on your iPhone</h2>
+      <p>NFC Forge uses Apple's SwiftData to store things you choose to save, such as your saved tag library and the history of manual commands you've sent.</p>
+      <p>This data stays in the app's storage on your iPhone. It is never uploaded to a server or cloud service. You can delete it at any time in the app's Settings.</p>
 
-        <h2>3. Device Permissions & System APIs</h2>
-        <p>NFC Forge requests minimal iOS permissions required to perform its core functionality:</p>
-        <ul>
-          <li>
-            <strong>NFC Tag Reading Entitlement:</strong> Required by iOS to communicate with physical NFC chips held against the top edge of your iPhone. Used solely during active scanning sessions initiated by you.
-          </li>
-          <li>
-            <strong>Local Network (Bonjour / HTTP):</strong> Used exclusively if you enable the optional <em>Computer Reader Bridge</em> in Tools. This creates a lightweight local web server on your home/office Wi-Fi subnet so your Mac or PC can interface with the iPhone. No data is transmitted outside your local area network.
-          </li>
-        </ul>
+      <h2>3. Permissions</h2>
+      <p>NFC Forge only asks for what it needs to work:</p>
+      <ul>
+        <li><strong>NFC tag reading</strong> is required by iOS to talk to a tag held against your iPhone. It is only used during a scan that you start.</li>
+        <li><strong>Local network</strong> access is only used if you turn on the Computer Reader in Tools. This runs a small web server on your Wi-Fi network so a browser on your Mac or PC can talk to your iPhone. Nothing is sent outside your local network.</li>
+      </ul>
 
-        <h2>4. Third-Party Frameworks & Analytics</h2>
-        <p>
-          NFC Forge contains <strong>zero third-party tracking or analytics SDKs</strong>. We do not use Google Firebase, Google Analytics, Mixpanel, AppsFlyer, Facebook SDK, or advertising networks.
-        </p>
+      <h2>4. Third-party code</h2>
+      <p>NFC Forge contains no third-party analytics, tracking or advertising SDKs. That means no Firebase, Google Analytics, Mixpanel, AppsFlyer, Facebook SDK or ad networks.</p>
 
-        <h2>5. Open-Source Transparency</h2>
-        <p>
-          NFC Forge is open-source software licensed under the MIT License. The complete source code is publicly accessible on GitHub at <a href="https://github.com/rshamilton/FreeNFC" style="color: var(--accent-blue);" target="_blank" rel="noopener">github.com/rshamilton/FreeNFC</a>, allowing security researchers and users to independently audit our data handling and security practices.
-        </p>
+      <h2>5. Open source</h2>
+      <p>NFC Forge is open source under the MIT License. Anyone can read the code at <a href="https://github.com/rshamilton/FreeNFC">github.com/rshamilton/FreeNFC</a> and check how it handles data.</p>
 
-        <h2>6. Contact & Inquiries</h2>
-        <p>
-          If you have questions regarding this Privacy Policy or NFC Forge, please open an issue on our GitHub repository or contact:
-        </p>
-        <p>
-          <strong>Developer:</strong> rshamilton<br>
-          <strong>Email:</strong> <a href="mailto:freenfc@googlegroups.com" style="color: var(--accent-blue);">freenfc@googlegroups.com</a><br>
-          <strong>GitHub:</strong> <a href="https://github.com/rshamilton/FreeNFC" style="color: var(--accent-blue);" target="_blank" rel="noopener">github.com/rshamilton/FreeNFC</a>
-        </p>
-      </div>
-    </div>
+      <h2>6. Contact</h2>
+      <p>If you have questions about this policy, open an issue on GitHub or get in touch:</p>
+      <p>
+        Developer: rshamilton<br>
+        Email: <a href="mailto:freenfc@googlegroups.com">freenfc@googlegroups.com</a><br>
+        GitHub: <a href="https://github.com/rshamilton/FreeNFC">github.com/rshamilton/FreeNFC</a>
+      </p>
+    </article>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <strong>NFC Forge</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
-        </div>
-        <ul class="footer-links">
-          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
-          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
-          <li><a href="terms.html" class="footer-link">Terms</a></li>
-          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2026 Ryan Hamilton. Released under the MIT License.
-      </div>
-    </div>
+  <footer class="site-footer">
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://github.com/rshamilton/FreeNFC">GitHub</a>
+    </nav>
+    <p>NFC Forge · Open Source</p>
+    <p>© 2026 Ryan Hamilton · MIT License</p>
   </footer>
 
 </body>

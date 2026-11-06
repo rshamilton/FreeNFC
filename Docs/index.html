@@ -3,223 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NFC Forge — Open-Source NFC Toolkit for iOS</title>
-  <meta name="description" content="The ultimate, private, open-source NFC reader, writer, cloner, and diagnostic toolkit for iOS.">
-  <link rel="stylesheet" href="style.css">
+  <title>NFC Forge — NFC reader and writer for iPhone</title>
+  <meta name="description" content="A free, open-source app for reading, writing and cloning NFC tags on iPhone. No ads, no accounts, no tracking.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#1652AD">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="index.html" class="nav-logo">
-        <img class="nav-logo-icon" src="assets/favicon-64.png" alt="" width="32" height="32">
-        <span>NFC Forge</span>
-      </a>
-      <ul class="nav-links">
-        <li><a href="#features" class="nav-link">Features</a></li>
-        <li><a href="#compatibility" class="nav-link">Compatibility</a></li>
-        <li><a href="privacy.html" class="nav-link">Privacy</a></li>
-        <li><a href="support.html" class="nav-link">Support</a></li>
-        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+  <header class="bar">
+    <div class="page">
+      <a href="index.html" class="bar-title"><img src="assets/favicon-64.png" alt="" width="28" height="28"><span>NFC Forge</span></a>
+      <ul class="bar-links">
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC">GitHub</a></li>
       </ul>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <header class="hero">
-    <div class="container">
-      <img class="hero-icon" src="assets/app-icon-512.png" alt="NFC Forge app icon" width="128" height="128">
-      <div class="hero-badge">✨ Open Source · Zero Ads · Zero Trackers</div>
-      <h1 class="hero-title">The Complete NFC Toolkit <br>for iPhone</h1>
-      <p class="hero-subtitle">
-        Deep chip diagnostics, multi-record NDEF writing, tag cloning, low-level memory editing, 32-bit password recovery, and local Wi-Fi computer bridging — entirely on-device.
-      </p>
-      <div class="hero-actions">
-        <a href="https://github.com/rshamilton/FreeNFC" class="btn btn-primary" target="_blank" rel="noopener">
-          <span>View on GitHub</span>
-          <span>→</span>
-        </a>
-        <a href="#features" class="btn btn-secondary">Explore Capabilities</a>
-      </div>
     </div>
   </header>
 
-  <!-- Key Features Grid -->
-  <section class="section" id="features">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-tag">Capabilities</div>
-        <h2 class="section-title">Built for Power Users & Everyday Tags</h2>
-        <p class="section-subtitle">Engineered with Apple CoreNFC, SwiftData, and zero external dependencies.</p>
-      </div>
+  <main class="page">
 
-      <div class="grid-3">
-        <!-- Feature 1 -->
-        <div class="card">
-          <div class="card-icon icon-blue">🔍</div>
-          <h3 class="card-title">Deep Tag Reading</h3>
-          <p class="card-desc">
-            Instantly inspects chip manufacturer, model (NTAG213/215/216, Ultralight, SLIX, FeliCa), UID, NDEF capacity, lock bits, CC page, originality signatures, and full raw memory dumps.
-          </p>
-          <ul class="card-list">
-            <li>4-byte page & multi-block memory maps</li>
-            <li>ASCII & Hex real-time payload parser</li>
-            <li>Automatic diagnostic & issue analyzer</li>
-          </ul>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="card">
-          <div class="card-icon icon-purple">✍️</div>
-          <h3 class="card-title">Multi-Record Writer</h3>
-          <p class="card-desc">
-            Compose and write rich NDEF messages. Stage multiple records to write in a single tap with live capacity indicators.
-          </p>
-          <ul class="card-list">
-            <li>URLs, Wi-Fi tokens, Contact vCards</li>
-            <li>Social profiles (Instagram, X, TikTok, GitHub)</li>
-            <li>Payment handles, Calendar, SMS, Custom TNF</li>
-          </ul>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="card">
-          <div class="card-icon icon-green">📋</div>
-          <h3 class="card-title">Tag Duplication</h3>
-          <p class="card-desc">
-            Save scanned tag templates to your local library and clone their NDEF records and user memory blocks onto blank tags.
-          </p>
-          <ul class="card-list">
-            <li>Offline SwiftData tag library</li>
-            <li>1-Tap cloning to compatible blanks</li>
-            <li>JSON export & backup sharing</li>
-          </ul>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="card">
-          <div class="card-icon icon-orange">🛠️</div>
-          <h3 class="card-title">Advanced Power Tools</h3>
-          <p class="card-desc">
-            Low-level tools for developers and hardware tinkerers. Permanent lock bits, format blanks, 32-bit password setup, unbricking recovery, and raw binary dumping.
-          </p>
-          <ul class="card-list">
-            <li>Interactive byte-level Memory Editor</li>
-            <li>Full .bin dump & restore</li>
-            <li>Manual ISO14443/15693 command transceiver</li>
-          </ul>
-        </div>
-
-        <!-- Feature 5 -->
-        <div class="card">
-          <div class="card-icon icon-cyan">💻</div>
-          <h3 class="card-title">Computer Reader Bridge</h3>
-          <p class="card-desc">
-            Turn your iPhone into a wireless NFC reader for your Mac or PC browser over local Wi-Fi without installing software on your computer.
-          </p>
-          <ul class="card-list">
-            <li>Zero-install local web dashboard</li>
-            <li>Server-Sent Events (SSE) live updates</li>
-            <li>Read & write tags directly from computer</li>
-          </ul>
-        </div>
-
-        <!-- Feature 6 -->
-        <div class="card">
-          <div class="card-icon icon-red">🔒</div>
-          <h3 class="card-title">Privacy Guaranteed</h3>
-          <p class="card-desc">
-            100% on-device processing. No accounts, no advertising, no analytics SDKs, and no telemetry. Your tag data never leaves your device.
-          </p>
-          <ul class="card-list">
-            <li>No Firebase, Mixpanel, or trackers</li>
-            <li>Local network only for Computer Bridge</li>
-            <li>Fully auditable open-source codebase</li>
-          </ul>
+    <section class="product">
+      <img class="product-icon" src="assets/app-icon-512.png" alt="NFC Forge app icon" width="118" height="118">
+      <div>
+        <h1>NFC Forge</h1>
+        <p class="product-sub">Read, write and clone NFC tags</p>
+        <div class="product-actions">
+          <a class="pill" href="https://apps.apple.com/app/id6801674087">App Store</a>
+          <a class="pill pill-plain" href="https://github.com/rshamilton/FreeNFC">Source Code</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Tag Compatibility Table -->
-  <section class="section" id="compatibility" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-tag">Specifications</div>
-        <h2 class="section-title">NFC Tag Compatibility Matrix</h2>
-        <p class="section-subtitle">Detailed breakdown of supported chip technologies and capabilities on iOS.</p>
-      </div>
+    <dl class="facts">
+      <div><dt>Price</dt><dd>Free</dd></div>
+      <div><dt>Ads</dt><dd>None</dd></div>
+      <div><dt>Tracking</dt><dd>None</dd></div>
+      <div><dt>License</dt><dd>MIT</dd></div>
+    </dl>
 
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Chip Family</th>
-              <th>Common Tags</th>
-              <th>Status</th>
-              <th>Supported Features</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>NTAG21x / Ultralight</strong></td>
-              <td>NTAG213, NTAG215 (Amiibo), NTAG216, EV1</td>
-              <td><span class="status-badge badge-success">Full Support</span></td>
-              <td>Read, Write NDEF, Format, Memory Editor, Lock, Password, .bin Dump/Restore</td>
-            </tr>
-            <tr>
-              <td><strong>ISO 15693 (Vicinity)</strong></td>
-              <td>ICODE SLIX, SLIX2, Tag-it HF-I</td>
-              <td><span class="status-badge badge-success">Full Support</span></td>
-              <td>Read, Write NDEF, Block Locking, Memory Dump, AFI/DSFID, Custom Commands</td>
-            </tr>
-            <tr>
-              <td><strong>ISO 7816 (Smart Cards)</strong></td>
-              <td>Type 4 NFC, DESFire EV1/2/3, Calypso</td>
-              <td><span class="status-badge badge-info">NDEF + APDU</span></td>
-              <td>NDEF File Read/Write, Raw APDU Command Transceiver, SW1/SW2 Status Inspection</td>
-            </tr>
-            <tr>
-              <td><strong>FeliCa (Type 3)</strong></td>
-              <td>FeliCa Lite-S, FeliCa Standard</td>
-              <td><span class="status-badge badge-info">NDEF + Commands</span></td>
-              <td>Type 3 NDEF blocks, System Code & Manufacturer Code decoding, Polling</td>
-            </tr>
-            <tr>
-              <td><strong>MIFARE Classic (1K/4K)</strong></td>
-              <td>Classic 1K, Classic 4K</td>
-              <td><span class="status-badge badge-warning">UID Only</span></td>
-              <td>UID Detection (Apple CoreNFC does not provide Crypto1 access required for memory)</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+    <p class="lede">
+      NFC Forge is an NFC app for iPhone. It shows you everything iOS can read from a tag, writes almost any kind of record, and has low-level tools for when you need them. There are no accounts, and nothing you scan leaves your phone.
+    </p>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <strong>NFC Forge</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
-        </div>
-        <ul class="footer-links">
-          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
-          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
-          <li><a href="terms.html" class="footer-link">Terms</a></li>
-          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2026 Ryan Hamilton. Released under the MIT License.
-      </div>
-    </div>
+    <section class="section" id="read">
+      <h2 class="section-header">Read</h2>
+      <ul class="group has-icons">
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#read"/></svg>
+          <span class="row-text"><span class="row-title">Tag details</span><span class="row-detail">Chip type, manufacturer, UID, capacity and lock state</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-indigo" aria-hidden="true"><use href="icons.svg#list"/></svg>
+          <span class="row-text"><span class="row-title">Records</span><span class="row-detail">Links, text, contacts, Wi-Fi and other NDEF records, decoded</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-purple" aria-hidden="true"><use href="icons.svg#grid"/></svg>
+          <span class="row-text"><span class="row-title">Memory dump</span><span class="row-detail">Every page of memory in hex and ASCII</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-green" aria-hidden="true"><use href="icons.svg#pulse"/></svg>
+          <span class="row-text"><span class="row-title">Diagnostics</span><span class="row-detail">Points out common problems with a tag</span></span>
+        </div></li>
+      </ul>
+    </section>
+
+    <section class="section" id="write">
+      <h2 class="section-header">Write</h2>
+      <ul class="group has-icons">
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#link"/></svg>
+          <span class="row-text"><span class="row-title">Links and text</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-orange" aria-hidden="true"><use href="icons.svg#person"/></svg>
+          <span class="row-text"><span class="row-title">Contact cards</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#wifi"/></svg>
+          <span class="row-text"><span class="row-title">Wi-Fi networks</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-green" aria-hidden="true"><use href="icons.svg#bubble"/></svg>
+          <span class="row-text"><span class="row-title">Social profiles and payment links</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-red" aria-hidden="true"><use href="icons.svg#calendar"/></svg>
+          <span class="row-text"><span class="row-title">And more</span><span class="row-detail">Calendar events, locations, phone, FaceTime, WhatsApp, Bluetooth pairing, files and custom records</span></span>
+        </div></li>
+      </ul>
+      <p class="section-footer">Add several records and write them to a tag in one go. A capacity bar shows how much room is left.</p>
+    </section>
+
+    <section class="section" id="duplicate">
+      <h2 class="section-header">Duplicate</h2>
+      <ul class="group has-icons">
+        <li><div class="row">
+          <svg class="row-icon c-teal" aria-hidden="true"><use href="icons.svg#tray"/></svg>
+          <span class="row-text"><span class="row-title">Saved tag library</span><span class="row-detail">Keep scanned tags on your phone, and export them as JSON</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#copy"/></svg>
+          <span class="row-text"><span class="row-title">Clone to blank tags</span><span class="row-detail">Copy records and user memory onto one or more blanks</span></span>
+        </div></li>
+      </ul>
+      <p class="section-footer">Only unencrypted tags can be copied. Payment, transit and most access cards can't.</p>
+    </section>
+
+    <section class="section" id="tools">
+      <h2 class="section-header">Tools</h2>
+      <ul class="group has-icons">
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#eraser"/></svg>
+          <span class="row-text"><span class="row-title">Erase</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-indigo" aria-hidden="true"><use href="icons.svg#stack"/></svg>
+          <span class="row-text"><span class="row-title">Format</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-red" aria-hidden="true"><use href="icons.svg#lock"/></svg>
+          <span class="row-text"><span class="row-title">Lock Tag</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-orange" aria-hidden="true"><use href="icons.svg#key"/></svg>
+          <span class="row-text"><span class="row-title">Password Protection</span><span class="row-detail">Set, remove or recover a 32-bit password</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-purple" aria-hidden="true"><use href="icons.svg#grid"/></svg>
+          <span class="row-text"><span class="row-title">Memory Editor</span><span class="row-detail">Edit tag memory byte by byte</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-green" aria-hidden="true"><use href="icons.svg#terminal"/></svg>
+          <span class="row-text"><span class="row-title">Manual Commands</span><span class="row-detail">Send raw ISO 14443, ISO 15693 and APDU commands</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-teal" aria-hidden="true"><use href="icons.svg#drive"/></svg>
+          <span class="row-text"><span class="row-title">Full .bin Dump</span><span class="row-detail">Back up a whole tag and restore it later</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-gray" aria-hidden="true"><use href="icons.svg#laptop"/></svg>
+          <span class="row-text"><span class="row-title">iPhone as Computer Reader</span></span>
+        </div></li>
+      </ul>
+      <p class="section-footer">Use this iPhone as an NFC reader for your Mac over Wi-Fi. Your computer just needs a web browser.</p>
+    </section>
+
+    <section class="section" id="compatibility">
+      <h2 class="section-header">Supported Tags</h2>
+      <ul class="group">
+        <li><div class="row">
+          <span class="row-text"><span class="row-title">NTAG21x and Ultralight</span><span class="row-detail">NTAG213, 215, 216, Ultralight EV1</span></span>
+          <span class="row-value">Full</span>
+        </div></li>
+        <li><div class="row">
+          <span class="row-text"><span class="row-title">ISO 15693</span><span class="row-detail">ICODE SLIX, SLIX2, Tag-it HF-I</span></span>
+          <span class="row-value">Full</span>
+        </div></li>
+        <li><div class="row">
+          <span class="row-text"><span class="row-title">ISO 7816</span><span class="row-detail">Type 4, DESFire EV1/2/3</span></span>
+          <span class="row-value">NDEF, APDU</span>
+        </div></li>
+        <li><div class="row">
+          <span class="row-text"><span class="row-title">FeliCa</span><span class="row-detail">FeliCa Lite-S, FeliCa Standard</span></span>
+          <span class="row-value">NDEF, commands</span>
+        </div></li>
+        <li><div class="row">
+          <span class="row-text"><span class="row-title">MIFARE Classic</span><span class="row-detail">Classic 1K, 4K</span></span>
+          <span class="row-value">UID only</span>
+        </div></li>
+      </ul>
+      <p class="section-footer">iOS doesn't let apps use MIFARE Classic encryption, so only the UID can be read from those cards.</p>
+    </section>
+
+    <section class="section" id="privacy">
+      <h2 class="section-header">Privacy</h2>
+      <ul class="group has-icons">
+        <li><div class="text-cell">
+          <p>NFC Forge has no accounts, ads or analytics, and no third-party SDKs. Saved tags and command history are stored only on your iPhone. The Computer Reader runs on your local network, and only while you have it on.</p>
+        </div></li>
+        <li><a class="row" href="privacy.html">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#shield"/></svg>
+          <span class="row-text"><span class="row-title">Privacy Policy</span></span>
+          <svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg>
+        </a></li>
+        <li><a class="row" href="https://github.com/rshamilton/FreeNFC">
+          <svg class="row-icon c-gray" aria-hidden="true"><use href="icons.svg#code"/></svg>
+          <span class="row-text"><span class="row-title">Read the source code</span></span>
+          <svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg>
+        </a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://github.com/rshamilton/FreeNFC">GitHub</a>
+    </nav>
+    <p>NFC Forge · Open Source</p>
+    <p>© 2026 Ryan Hamilton · MIT License</p>
   </footer>
 
 </body>

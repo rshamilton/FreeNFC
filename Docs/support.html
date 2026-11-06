@@ -3,134 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support & FAQ — NFC Forge</title>
-  <meta name="description" content="Help, troubleshooting, and FAQs for NFC Forge on iOS.">
-  <link rel="stylesheet" href="style.css">
+  <title>Support — NFC Forge</title>
+  <meta name="description" content="Scanning tips, answers to common questions, and how to get help with NFC Forge.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#1652AD">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="index.html" class="nav-logo">
-        <img class="nav-logo-icon" src="assets/favicon-64.png" alt="" width="32" height="32">
-        <span>NFC Forge</span>
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html#features" class="nav-link">Features</a></li>
-        <li><a href="index.html#compatibility" class="nav-link">Compatibility</a></li>
-        <li><a href="privacy.html" class="nav-link">Privacy</a></li>
-        <li><a href="support.html" class="nav-link active">Support</a></li>
-        <li><a href="https://github.com/rshamilton/FreeNFC" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+  <header class="bar">
+    <div class="page">
+      <a href="index.html" class="bar-title"><img src="assets/favicon-64.png" alt="" width="28" height="28"><span>NFC Forge</span></a>
+      <ul class="bar-links">
+        <li><a href="support.html" aria-current="page">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="https://github.com/rshamilton/FreeNFC">GitHub</a></li>
       </ul>
     </div>
-  </nav>
+  </header>
 
-  <!-- Content -->
-  <main class="section">
-    <div class="container">
-      <div class="doc-content">
-        <div class="hero-badge">💡 Help Center</div>
-        <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px;">Support & FAQs</h1>
-        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 30px;">
-          Find answers to common questions, troubleshooting advice, and step-by-step guides.
-        </p>
+  <main class="page">
+    <h1 class="large-title">Support</h1>
 
-        <!-- Scanning Tips -->
-        <h2>NFC Scanning Best Practices</h2>
-        <div class="grid-2" style="margin: 20px 0 30px;">
-          <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px;">
-            <strong style="color: var(--accent-blue);">📍 Antenna Location</strong>
-            <p style="font-size: 0.9rem; margin-top: 6px; margin-bottom: 0;">
-              The iPhone NFC antenna is centered along the top rear rim of the device. Rest the top edge of your phone directly against the tag.
-            </p>
-          </div>
-          <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px;">
-            <strong style="color: var(--accent-green);">⏱️ Hold Steady</strong>
-            <p style="font-size: 0.9rem; margin-top: 6px; margin-bottom: 0;">
-              Keep your phone steady for 1 to 2 seconds. Full chip memory dumps execute dozens of rapid transceive commands in sequence.
-            </p>
-          </div>
-        </div>
+    <section class="section">
+      <h2 class="section-header">Scanning Tips</h2>
+      <ul class="group has-icons">
+        <li><div class="row">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#phone-top"/></svg>
+          <span class="row-text"><span class="row-title">Use the top edge</span><span class="row-detail">The iPhone's NFC antenna runs along the top of the back. Rest that edge directly on the tag.</span></span>
+        </div></li>
+        <li><div class="row">
+          <svg class="row-icon c-green" aria-hidden="true"><use href="icons.svg#timer"/></svg>
+          <span class="row-text"><span class="row-title">Hold still</span><span class="row-detail">Keep the phone in place for a second or two. A full memory dump sends dozens of commands in a row.</span></span>
+        </div></li>
+      </ul>
+    </section>
 
-        <!-- FAQ Accordion -->
-        <h2>Frequently Asked Questions</h2>
+    <section class="section">
+      <h2 class="section-header">Questions</h2>
+      <ul class="group">
+        <li><details>
+          <summary><span class="row-text">Why can't I copy my transit card, credit card or office badge?</span><svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg></summary>
+          <div class="answer"><p>Payment cards, transit cards (Clipper, Suica, Oyster) and most access badges are protected by hardware encryption, such as MIFARE Classic Crypto1 or a secure EMV chip. iOS doesn't give apps access to those protected sectors, so they can't be read or copied.</p></div>
+        </details></li>
+        <li><details>
+          <summary><span class="row-text">Which blank tags should I buy?</span><svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg></summary>
+          <div class="answer"><p>NTAG215 (504 bytes of user memory) or NTAG213 (144 bytes) stickers and cards. They work with iPhone, Android, Amiibo and every feature in NFC Forge.</p></div>
+        </details></li>
+        <li><details>
+          <summary><span class="row-text">How do I use the Computer Reader?</span><svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg></summary>
+          <div class="answer"><ol>
+            <li>Put your iPhone and computer on the same Wi-Fi network.</li>
+            <li>In the app, open Tools → iPhone as Computer Reader and turn the server on.</li>
+            <li>On your computer, scan the QR code or type the address shown (for example <code>http://192.168.1.50:8080</code>) into a browser.</li>
+            <li>Click "Read a tag" in the browser and hold a tag to your phone.</li>
+          </ol></div>
+        </details></li>
+        <li><details>
+          <summary><span class="row-text">How does password recovery work?</span><svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg></summary>
+          <div class="answer"><p>Open Tools → Password Protection → Recover. The app tries common factory keys (<code>FF FF FF FF</code> and <code>00 00 00 00</code>) and any candidates you add. If one works, it resets the tag's AUTH0 page so the tag is unlocked again.</p></div>
+        </details></li>
+        <li><details>
+          <summary><span class="row-text">How do I write a Wi-Fi or contact tag?</span><svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg></summary>
+          <div class="answer"><p>In the Write tab, choose Contact Card or Wi-Fi Network, fill in the fields and tap Add Record. Then tap Write to Tag and hold a blank tag to the top of your iPhone.</p></div>
+        </details></li>
+      </ul>
+    </section>
 
-        <div class="faq-item">
-          <div class="faq-question">Why can't I clone transit cards, credit cards, or my office badge?</div>
-          <div class="faq-answer">
-            Contactless payment cards (Visa, Mastercard, Amex), transit systems (Clipper, Suica, Oyster), and secure access credentials use proprietary hardware encryption (such as MIFARE Classic Crypto1 or secure EMV microcontrollers). Apple CoreNFC does not grant raw cryptographic access to these protected sectors on iOS.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">Which blank NFC tags should I buy for best compatibility?</div>
-          <div class="faq-answer">
-            We highly recommend <strong>NTAG215</strong> (504 bytes user memory) or <strong>NTAG213</strong> (144 bytes) stickers/cards. They are fully compatible with iPhone, Android, Amiibo gaming figures, smart posters, and all NFC Forge features.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">How do I use the Computer Reader Bridge?</div>
-          <div class="faq-answer">
-            1. Connect your iPhone and computer to the same local Wi-Fi network.<br>
-            2. Open <em>Tools → Computer Reader</em> in the app and toggle the server on.<br>
-            3. Scan the displayed QR code or enter the IP address (e.g. <code>http://192.168.1.50:8080</code>) into Safari or Chrome on your computer.<br>
-            4. Click "Read a tag" on your computer to trigger an NFC scan through your phone!
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">How does Password Recovery / Unbricking work?</div>
-          <div class="faq-answer">
-            If a tag was protected with an unknown password, navigate to <em>Tools → Password Protection → Recover</em>. The app will systematically test common factory authentication keys (<code>FF FF FF FF</code> and <code>00 00 00 00</code>) or custom dictionary candidates to authenticate and reset the AUTH0 boundary page back to an unlocked state.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">How do I write a Wi-Fi or Contact vCard tag?</div>
-          <div class="faq-answer">
-            Go to the <em>Write</em> tab, select <em>Contact Card (vCard)</em> or <em>Wi-Fi Network</em>, fill out the required fields, and tap <em>Add Record</em>. Then tap <em>Write to Tag</em> at the bottom and hold a blank tag against the top edge of your iPhone.
-          </div>
-        </div>
-
-        <!-- Contact Support -->
-        <h2>Need More Help?</h2>
-        <p>If you encounter an issue, have a feature suggestion, or need technical assistance:</p>
-        <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 18px;">
-          <a href="https://github.com/rshamilton/FreeNFC/issues" class="btn btn-primary" target="_blank" rel="noopener">
-            <span>Open a GitHub Issue</span>
-          </a>
-          <a href="mailto:freenfc@googlegroups.com?subject=NFC%20Forge%20Support" class="btn btn-secondary">
-            <span>Email Developer</span>
-          </a>
-        </div>
-      </div>
-    </div>
+    <section class="section">
+      <h2 class="section-header">Get Help</h2>
+      <ul class="group has-icons">
+        <li><a class="row" href="https://github.com/rshamilton/FreeNFC/issues/new/choose">
+          <svg class="row-icon c-red" aria-hidden="true"><use href="icons.svg#bug"/></svg>
+          <span class="row-text"><span class="row-title">Report a Bug / Request a Feature</span></span>
+          <svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg>
+        </a></li>
+        <li><a class="row" href="mailto:freenfc@googlegroups.com?subject=NFC%20Forge%20Support">
+          <svg class="row-icon c-blue" aria-hidden="true"><use href="icons.svg#envelope"/></svg>
+          <span class="row-text"><span class="row-title">Send Feedback</span><span class="row-detail">freenfc@googlegroups.com</span></span>
+          <svg class="chevron" aria-hidden="true"><use href="icons.svg#chevron"/></svg>
+        </a></li>
+      </ul>
+      <p class="section-footer">Bug reports and feature requests are tracked as GitHub issues.</p>
+    </section>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <strong>NFC Forge</strong> — Open-source iOS NFC toolkit by <strong>rshamilton</strong>.
-        </div>
-        <ul class="footer-links">
-          <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
-          <li><a href="support.html" class="footer-link">Support & FAQ</a></li>
-          <li><a href="terms.html" class="footer-link">Terms</a></li>
-          <li><a href="https://github.com/rshamilton/FreeNFC" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2026 Ryan Hamilton. Released under the MIT License.
-      </div>
-    </div>
+  <footer class="site-footer">
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://github.com/rshamilton/FreeNFC">GitHub</a>
+    </nav>
+    <p>NFC Forge · Open Source</p>
+    <p>© 2026 Ryan Hamilton · MIT License</p>
   </footer>
 
 </body>
